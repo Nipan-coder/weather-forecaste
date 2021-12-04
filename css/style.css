@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url('../images/new2.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    background-color:rgba(138, 138, 138, 0.24);
+    border: 1px solid transparent ;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.container .banner{
+    margin: 20px;
+    padding: 20px 100px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: rgba(24, 24,27, 0.6);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.container .country-zone{
+    margin: 10px;
+    padding: 10px 100px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: rgba(24, 24,27, 0.6);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.container .country-zone span{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+.container .fiveday{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .fiveday .day{
+    margin: 10px;
+    padding: 10px 40px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: rgba(24, 24,27, 0.6);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 10px;
+}
+.container .fiveday .day #month{
+    margin: 5px;
+    font-weight: 400;
+}
+.container .fiveday .day #time{
+    margin: 5px;
+    font-weight: 400;
+}
+.container .fiveday .day #am-pm{
+    font-size: 12px;
+    font-weight: 700;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+.container .fiveday .day i{
+    font-size: 50px;
+    margin: 10px;
+}
+
+
