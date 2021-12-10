@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
 }
 
 body{
@@ -39,7 +40,7 @@ body{
     letter-spacing: 2px;
 }
 
-.container .country-zone{
+.container #country-zone{
     margin: 10px;
     padding: 10px 100px;
     border: 1px solid #eee;
@@ -54,7 +55,6 @@ body{
     font-weight: 700;
     letter-spacing: 2px;
 }
-
 
 .container .fiveday{
     display: flex;
@@ -73,6 +73,7 @@ body{
     align-items: center;
     flex-direction: column;
     line-height: 10px;
+    
 }
 .container .fiveday .day #month{
     margin: 5px;
@@ -92,5 +93,9 @@ body{
     font-size: 50px;
     margin: 10px;
 }
-
-
+#fiveday {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
