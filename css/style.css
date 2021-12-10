@@ -7,7 +7,9 @@
 }
 
 body{
-    background-image:url('../images/new2.jpg');
+    background: #4b6cb7; 
+    background: -webkit-linear-gradient(to right, #4b6cb7, #182848); 
+    background: linear-gradient(to right, #4b6cb7, #182848);
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
@@ -61,7 +63,7 @@ body{
     justify-content: space-around;
 }
 
-.container .fiveday .day{
+ .day{
     margin: 10px;
     padding: 10px 40px;
     border: 1px solid #eee;
